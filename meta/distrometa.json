@@ -1,0 +1,11 @@
+{
+  "$schema": "file:///C:/Generated-files/schemas/DistroMetaSchema.schema.json",
+  "meta": {
+    "rss": "https://legendmc.fr/api/rss",
+    "discord": {
+      "clientId": "1011682440215003206",
+      "smallImageText": "LegendMC | play.legendmc.fr",
+      "smallImageKey": "logo"
+    }
+  }
+}
