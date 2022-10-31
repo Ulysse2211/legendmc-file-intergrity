@@ -11,7 +11,7 @@
       "id": "LegendMC-1.18.2",
       "name": "LegendMC",
       "description": "LegendMC (Minecraft 1.18.2)",
-      "icon": null,
+      "icon": https://legendmc.fr/storage/img/logo.png,
       "version": "1.0.0",
       "address": "play.legendmc.fr:25565",
       "minecraftVersion": "1.18.2",
