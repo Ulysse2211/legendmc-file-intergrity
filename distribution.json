@@ -410,19 +410,6 @@
           }
         },
         {
-          "id": "com.anthonyhilyard:itemborders:1.1.5@jar",
-          "name": "Item Borders",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 17670,
-            "url": "https://github.com/Ulysse2211/legendmc-file-intergrity/raw/main/servers/LegendMC-1.18.2/forgemods/optionalon/ItemBorders-1.18.1-1.1.5.jar",
-            "MD5": "e3a9455b233a4c57ad73dfb4d9aae812"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
           "id": "mezz.jei:jei:9.7.1.232@jar",
           "name": "Just Enough Items",
           "type": "ForgeMod",
