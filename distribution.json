@@ -11,7 +11,7 @@
       "id": "LegendMC-1.18.2",
       "name": "LegendMC",
       "description": "LegendMC (Minecraft 1.18.2)",
-      "icon": null,
+      "icon": "http://legendmc.fr/storage/img/logo.png",
       "version": "1.0.0",
       "address": "play.legendmc.fr:25565",
       "minecraftVersion": "1.18.2",
@@ -410,19 +410,6 @@
           }
         },
         {
-          "id": "dev.tr7zw.firstperson:firstpersonmod:2.1.2-mc1.18.2@jar",
-          "name": "FirstPersonModel Mod",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 108930,
-            "url": "https://github.com/Ulysse2211/legendmc-file-intergrity/raw/main/servers/LegendMC-1.18.2/forgemods/optionalon/firstperson-forge-2.1.2-mc1.18.2.jar",
-            "MD5": "c71acf4b1ca30dddf2cc5c15ffad2f42"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
           "id": "com.anthonyhilyard:iceberg:1.0.49@jar",
           "name": "Iceberg",
           "type": "ForgeMod",
@@ -432,20 +419,7 @@
             "MD5": "34cf6cacf18f8e7eefe759042edfc42e"
           },
           "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "com.anthonyhilyard:itemborders:1.1.5@jar",
-          "name": "Item Borders",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 17670,
-            "url": "https://github.com/Ulysse2211/legendmc-file-intergrity/raw/main/servers/LegendMC-1.18.2/forgemods/optionalon/ItemBorders-1.18.1-1.1.5.jar",
-            "MD5": "e3a9455b233a4c57ad73dfb4d9aae812"
-          },
-          "required": {
-            "value": false
+            "value": true
           }
         },
         {
@@ -497,7 +471,7 @@
             "MD5": "0e5885f8ba6fc5f06f6cbb83be47b461"
           },
           "required": {
-            "value": false
+            "value": true
           }
         },
         {
