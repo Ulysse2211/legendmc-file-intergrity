@@ -11,7 +11,7 @@
       "id": "LegendMC-1.18.2",
       "name": "LegendMC",
       "description": "LegendMC (Minecraft 1.18.2)",
-      "icon": "http://legendmc.fr/storage/img/logo.png",
+      "icon": null,
       "version": "1.0.0",
       "address": "play.legendmc.fr:25565",
       "minecraftVersion": "1.18.2",
@@ -21,7 +21,7 @@
         "largeImageKey": "logo2"
       },
       "mainServer": true,
-      "autoconnect": true,
+      "autoconnect": false,
       "modules": [
         {
           "id": "net.minecraftforge:lowcodelanguage:1.18.2-40.1.84",
@@ -415,11 +415,8 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 107482,
-            "url": "https://github.com/Ulysse2211/legendmc-file-intergrity/raw/main/servers/LegendMC-1.18.2/forgemods/optionalon/Iceberg-1.18.2-forge-1.0.49.jar",
+            "url": "https://github.com/Ulysse2211/legendmc-file-intergrity/raw/main/servers/LegendMC-1.18.2/forgemods/required/Iceberg-1.18.2-forge-1.0.49.jar",
             "MD5": "34cf6cacf18f8e7eefe759042edfc42e"
-          },
-          "required": {
-            "value": true
           }
         },
         {
@@ -462,16 +459,33 @@
           }
         },
         {
+          "id": "shadows.packmenu:packmenu:4.1.4@jar",
+          "name": "PackMenu",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 542740,
+            "url": "https://github.com/Ulysse2211/legendmc-file-intergrity/raw/main/servers/LegendMC-1.18.2/forgemods/required/PackMenu-1.18.2-4.1.4.jar",
+            "MD5": "d85b91fe8c559f09879592d5f266cd6f"
+          }
+        },
+        {
+          "id": "shadows.placebo:placebo:6.6.6@jar",
+          "name": "Placebo",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 215857,
+            "url": "https://github.com/Ulysse2211/legendmc-file-intergrity/raw/main/servers/LegendMC-1.18.2/forgemods/required/Placebo-1.18.2-6.6.6.jar",
+            "MD5": "81358db2defca10f86e92d07561f5113"
+          }
+        },
+        {
           "id": "com.anthonyhilyard:prism:1.0.1@jar",
           "name": "Prism",
           "type": "ForgeMod",
           "artifact": {
             "size": 51513,
-            "url": "https://github.com/Ulysse2211/legendmc-file-intergrity/raw/main/servers/LegendMC-1.18.2/forgemods/optionalon/Prism-1.18.2-1.0.1.jar",
+            "url": "https://github.com/Ulysse2211/legendmc-file-intergrity/raw/main/servers/LegendMC-1.18.2/forgemods/required/Prism-1.18.2-1.0.1.jar",
             "MD5": "0e5885f8ba6fc5f06f6cbb83be47b461"
-          },
-          "required": {
-            "value": true
           }
         },
         {
@@ -498,6 +512,259 @@
           },
           "required": {
             "value": false
+          }
+        },
+        {
+          "id": "splashes.txt",
+          "name": "splashes.txt",
+          "type": "File",
+          "artifact": {
+            "size": 28,
+            "url": "https://github.com/Ulysse2211/legendmc-file-intergrity/raw/main/servers/LegendMC-1.18.2/files/packmenu/resources/assets/minecraft/texts/splashes.txt",
+            "MD5": "742166387162fefbe32423bcd1ad96a7",
+            "path": "packmenu/resources/assets/minecraft/texts/splashes.txt"
+          }
+        },
+        {
+          "id": "edition.png",
+          "name": "edition.png",
+          "type": "File",
+          "artifact": {
+            "size": 1419,
+            "url": "https://github.com/Ulysse2211/legendmc-file-intergrity/raw/main/servers/LegendMC-1.18.2/files/packmenu/resources/assets/minecraft/textures/gui/title/edition.png",
+            "MD5": "72c41323fa4a46b3b062492314745108",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/title/edition.png"
+          }
+        },
+        {
+          "id": "minecraft.png",
+          "name": "minecraft.png",
+          "type": "File",
+          "artifact": {
+            "size": 13501,
+            "url": "https://github.com/Ulysse2211/legendmc-file-intergrity/raw/main/servers/LegendMC-1.18.2/files/packmenu/resources/assets/minecraft/textures/gui/title/minecraft.png",
+            "MD5": "10b056f3041f3efd15c1a8ac3629f869",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/title/minecraft.png"
+          }
+        },
+        {
+          "id": "mojangstudios.png",
+          "name": "mojangstudios.png",
+          "type": "File",
+          "artifact": {
+            "size": 11788,
+            "url": "https://github.com/Ulysse2211/legendmc-file-intergrity/raw/main/servers/LegendMC-1.18.2/files/packmenu/resources/assets/minecraft/textures/gui/title/mojangstudios.png",
+            "MD5": "b33fb474b70f0579c2c646f16b456a8c",
+            "path": "packmenu/resources/assets/minecraft/textures/gui/title/mojangstudios.png"
+          }
+        },
+        {
+          "id": "discord.json",
+          "name": "discord.json",
+          "type": "File",
+          "artifact": {
+            "size": 263,
+            "url": "https://github.com/Ulysse2211/legendmc-file-intergrity/raw/main/servers/LegendMC-1.18.2/files/packmenu/resources/assets/packmenu/buttons/discord.json",
+            "MD5": "0bb552a9567e07bed67b2a61b76d942e",
+            "path": "packmenu/resources/assets/packmenu/buttons/discord.json"
+          }
+        },
+        {
+          "id": "options.json",
+          "name": "options.json",
+          "type": "File",
+          "artifact": {
+            "size": 272,
+            "url": "https://github.com/Ulysse2211/legendmc-file-intergrity/raw/main/servers/LegendMC-1.18.2/files/packmenu/resources/assets/packmenu/buttons/options.json",
+            "MD5": "cede12d35489d30508dd457c06c6af9c",
+            "path": "packmenu/resources/assets/packmenu/buttons/options.json"
+          }
+        },
+        {
+          "id": "quit.json",
+          "name": "quit.json",
+          "type": "File",
+          "artifact": {
+            "size": 206,
+            "url": "https://github.com/Ulysse2211/legendmc-file-intergrity/raw/main/servers/LegendMC-1.18.2/files/packmenu/resources/assets/packmenu/buttons/quit.json",
+            "MD5": "dc57f25d1edfcb68a566187a3a125324",
+            "path": "packmenu/resources/assets/packmenu/buttons/quit.json"
+          }
+        },
+        {
+          "id": "seconnecter.json",
+          "name": "seconnecter.json",
+          "type": "File",
+          "artifact": {
+            "size": 199,
+            "url": "https://github.com/Ulysse2211/legendmc-file-intergrity/raw/main/servers/LegendMC-1.18.2/files/packmenu/resources/assets/packmenu/buttons/seconnecter.json",
+            "MD5": "96b2e9074b739346912350b5c3067832",
+            "path": "packmenu/resources/assets/packmenu/buttons/seconnecter.json"
+          }
+        },
+        {
+          "id": "shop.json",
+          "name": "shop.json",
+          "type": "File",
+          "artifact": {
+            "size": 286,
+            "url": "https://github.com/Ulysse2211/legendmc-file-intergrity/raw/main/servers/LegendMC-1.18.2/files/packmenu/resources/assets/packmenu/buttons/shop.json",
+            "MD5": "f5d1a0fc63358b4f1ccff0d432a33edf",
+            "path": "packmenu/resources/assets/packmenu/buttons/shop.json"
+          }
+        },
+        {
+          "id": "twitter.json",
+          "name": "twitter.json",
+          "type": "File",
+          "artifact": {
+            "size": 265,
+            "url": "https://github.com/Ulysse2211/legendmc-file-intergrity/raw/main/servers/LegendMC-1.18.2/files/packmenu/resources/assets/packmenu/buttons/twitter.json",
+            "MD5": "ae1555ed14368da8d960d917707f01df",
+            "path": "packmenu/resources/assets/packmenu/buttons/twitter.json"
+          }
+        },
+        {
+          "id": "web.json",
+          "name": "web.json",
+          "type": "File",
+          "artifact": {
+            "size": 251,
+            "url": "https://github.com/Ulysse2211/legendmc-file-intergrity/raw/main/servers/LegendMC-1.18.2/files/packmenu/resources/assets/packmenu/buttons/web.json",
+            "MD5": "b662b3b5a162682026f350bada6b1fd0",
+            "path": "packmenu/resources/assets/packmenu/buttons/web.json"
+          }
+        },
+        {
+          "id": "en_us.json",
+          "name": "en_us.json",
+          "type": "File",
+          "artifact": {
+            "size": 75,
+            "url": "https://github.com/Ulysse2211/legendmc-file-intergrity/raw/main/servers/LegendMC-1.18.2/files/packmenu/resources/assets/packmenu/lang/en_us.json",
+            "MD5": "900b01c09c5da745073fee7c46e58e63",
+            "path": "packmenu/resources/assets/packmenu/lang/en_us.json"
+          }
+        },
+        {
+          "id": "supporters.txt",
+          "name": "supporters.txt",
+          "type": "File",
+          "artifact": {
+            "size": 52,
+            "url": "https://github.com/Ulysse2211/legendmc-file-intergrity/raw/main/servers/LegendMC-1.18.2/files/packmenu/resources/assets/packmenu/texts/supporters.txt",
+            "MD5": "c373a7eeaffcc5396989a26484455c8c",
+            "path": "packmenu/resources/assets/packmenu/texts/supporters.txt"
+          }
+        },
+        {
+          "id": "background.png",
+          "name": "background.png",
+          "type": "File",
+          "artifact": {
+            "size": 3226359,
+            "url": "https://github.com/Ulysse2211/legendmc-file-intergrity/raw/main/servers/LegendMC-1.18.2/files/packmenu/resources/assets/packmenu/textures/gui/background.png",
+            "MD5": "288a0b5fa0e095226ebf364755e7b215",
+            "path": "packmenu/resources/assets/packmenu/textures/gui/background.png"
+          }
+        },
+        {
+          "id": "discord.png",
+          "name": "discord.png",
+          "type": "File",
+          "artifact": {
+            "size": 1932,
+            "url": "https://github.com/Ulysse2211/legendmc-file-intergrity/raw/main/servers/LegendMC-1.18.2/files/packmenu/resources/assets/packmenu/textures/gui/discord.png",
+            "MD5": "98355a06b0d9418230ff51fd7f552f5f",
+            "path": "packmenu/resources/assets/packmenu/textures/gui/discord.png"
+          }
+        },
+        {
+          "id": "logo.png",
+          "name": "logo.png",
+          "type": "File",
+          "artifact": {
+            "size": 23594,
+            "url": "https://github.com/Ulysse2211/legendmc-file-intergrity/raw/main/servers/LegendMC-1.18.2/files/packmenu/resources/assets/packmenu/textures/gui/logo.png",
+            "MD5": "6cab58c57f2944e5151acadaa365fbb2",
+            "path": "packmenu/resources/assets/packmenu/textures/gui/logo.png"
+          }
+        },
+        {
+          "id": "reload.png",
+          "name": "reload.png",
+          "type": "File",
+          "artifact": {
+            "size": 806,
+            "url": "https://github.com/Ulysse2211/legendmc-file-intergrity/raw/main/servers/LegendMC-1.18.2/files/packmenu/resources/assets/packmenu/textures/gui/reload.png",
+            "MD5": "0af7d359b365b61b4b5cc05f9367b2a8",
+            "path": "packmenu/resources/assets/packmenu/textures/gui/reload.png"
+          }
+        },
+        {
+          "id": "minecraft.png",
+          "name": "minecraft.png",
+          "type": "File",
+          "artifact": {
+            "size": 114278,
+            "url": "https://github.com/Ulysse2211/legendmc-file-intergrity/raw/main/servers/LegendMC-1.18.2/files/packmenu/resources/assets/packmenu/textures/gui/title/minecraft.png",
+            "MD5": "3204d745b828b562c7c7036ead1ff6da",
+            "path": "packmenu/resources/assets/packmenu/textures/gui/title/minecraft.png"
+          }
+        },
+        {
+          "id": "twitter.png",
+          "name": "twitter.png",
+          "type": "File",
+          "artifact": {
+            "size": 1715,
+            "url": "https://github.com/Ulysse2211/legendmc-file-intergrity/raw/main/servers/LegendMC-1.18.2/files/packmenu/resources/assets/packmenu/textures/gui/twitter.png",
+            "MD5": "5e5a368db2e83221b83e61a01d0d42c6",
+            "path": "packmenu/resources/assets/packmenu/textures/gui/twitter.png"
+          }
+        },
+        {
+          "id": "web.png",
+          "name": "web.png",
+          "type": "File",
+          "artifact": {
+            "size": 3807,
+            "url": "https://github.com/Ulysse2211/legendmc-file-intergrity/raw/main/servers/LegendMC-1.18.2/files/packmenu/resources/assets/packmenu/textures/gui/web.png",
+            "MD5": "0de5f3c62dbfd32703f6bebd5be86a4f",
+            "path": "packmenu/resources/assets/packmenu/textures/gui/web.png"
+          }
+        },
+        {
+          "id": "widgets.png",
+          "name": "widgets.png",
+          "type": "File",
+          "artifact": {
+            "size": 19028,
+            "url": "https://github.com/Ulysse2211/legendmc-file-intergrity/raw/main/servers/LegendMC-1.18.2/files/packmenu/resources/assets/packmenu/textures/gui/widgets.png",
+            "MD5": "b7e03822526b0a5a184fde1fff3c07de",
+            "path": "packmenu/resources/assets/packmenu/textures/gui/widgets.png"
+          }
+        },
+        {
+          "id": "pack.mcmeta",
+          "name": "pack.mcmeta",
+          "type": "File",
+          "artifact": {
+            "size": 110,
+            "url": "https://github.com/Ulysse2211/legendmc-file-intergrity/raw/main/servers/LegendMC-1.18.2/files/packmenu/resources/pack.mcmeta",
+            "MD5": "077ab5c86ad882672aba7dcb4a6580ae",
+            "path": "packmenu/resources/pack.mcmeta"
+          }
+        },
+        {
+          "id": "pack.png",
+          "name": "pack.png",
+          "type": "File",
+          "artifact": {
+            "size": 159413,
+            "url": "https://github.com/Ulysse2211/legendmc-file-intergrity/raw/main/servers/LegendMC-1.18.2/files/packmenu/resources/pack.png",
+            "MD5": "60b70b8965407c892caa1ba3a99050f5",
+            "path": "packmenu/resources/pack.png"
           }
         }
       ]
