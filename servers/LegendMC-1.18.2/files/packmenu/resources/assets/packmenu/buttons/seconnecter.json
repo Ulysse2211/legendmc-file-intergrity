@@ -1,0 +1,10 @@
+{
+	"x": -50,
+	"y": 20,
+	"width": 98,
+	"height": 20,
+	"langKey": "Se connecter",
+	"action": "CONNECT_TO_SERVER",
+	"texture": "packmenu:textures/gui/widgets.png",
+	"data": "play.legendmc.fr"
+}

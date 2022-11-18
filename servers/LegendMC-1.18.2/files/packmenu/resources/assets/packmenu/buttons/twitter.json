@@ -1,0 +1,15 @@
+{
+	"x": -240,
+	"y": 21,
+	"width": 32,
+	"height": 32,
+	"action": "OPEN_URL",
+	"data": "https://twitter.com/LegendMC_RP",
+	"u": 0,
+	"v": 0,
+	"hoverU": 0,
+	"hoverV": 32,
+	"texture": "packmenu:textures/gui/twitter.png",
+	"texWidth": 32,
+	"texHeight": 64
+}

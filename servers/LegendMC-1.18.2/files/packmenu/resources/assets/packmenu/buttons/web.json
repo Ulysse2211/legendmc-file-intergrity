@@ -1,0 +1,15 @@
+{
+	"x": -240,
+	"y": -12,
+	"width": 32,
+	"height": 32,
+	"action": "OPEN_URL",
+	"data": "https://legendmc.fr/",
+	"u": 0,
+	"v": 0,
+	"hoverU": 0,
+	"hoverV": 32,
+	"texture": "packmenu:textures/gui/web.png",
+	"texWidth": 32,
+	"texHeight": 64
+}

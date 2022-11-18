@@ -1,0 +1,20 @@
+{
+  "$schema": "file:///C:/Generated-files/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "LegendMC",
+    "description": "LegendMC (Minecraft 1.18.2)",
+    "address": "play.legendmc.fr:25565",
+    "discord": {
+      "shortId": "LegendMC",
+      "largeImageText": "Je joue à LegendMC! Rejoin moi à play.legendmc.fr!",
+      "largeImageKey": "logo2"
+    },
+    "mainServer": true,
+    "autoconnect": false
+  },
+  "forge": {
+    "version": "40.1.84"
+  },
+  "untrackedFiles": []
+}

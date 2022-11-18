@@ -1,0 +1,13 @@
+{
+	"x": 170,
+	"y": -113,
+	"width": 70,
+	"height": 20,
+	"langKey": "Quitter",
+	"texture": "packmenu:textures/gui/widgets.png",
+	"u": 0,
+	"v": 45,
+	"hoverU": 0,
+	"hoverV": 146,
+	"action": "QUIT"
+}

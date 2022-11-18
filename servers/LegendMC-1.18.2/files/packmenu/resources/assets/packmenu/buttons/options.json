@@ -1,0 +1,16 @@
+{
+	"x": -50,
+	"y": 50,
+	"width": 98,
+	"height": 20,
+	"langKey": "menu.options",
+	"action": "OPEN_GUI",
+	"data": "OPTIONS",
+	"u": 0,
+	"v": 66,
+	"hoverU": 0,
+	"hoverV": 86,
+	"texture": "packmenu:textures/gui/widgets.png",
+	"texWidth": 256,
+	"texHeight": 256
+}
